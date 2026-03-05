@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #f5f5f7;
+  --bg-secondary: #eeeef0;
+  --bg-card: #ffffff;
+  --text-primary: #1d1d1f;
+  --text-secondary: #3a3a3c;
+  --text-muted: #86868b;
+  --accent: #6ba3d6;
+  --accent-hover: #5a93c6;
+  --border: #d1d1d6;
+  --badge-bg: #e8edf3;
+  --badge-danger: #c43e3e;
+  --star-color: #f59e0b;
+}
+
+.dark {
+  --bg-primary: #0a0e14;
+  --bg-secondary: #0d1117;
+  --bg-card: #0a1a0a;
+  --text-primary: #33ff33;
+  --text-secondary: #22aa22;
+  --text-muted: #1a8a1a;
+  --accent: #00ff00;
+  --accent-hover: #00cc00;
+  --border: #1a3a1a;
+  --badge-bg: #0a1a0a;
+  --badge-danger: #ff3333;
+  --star-color: #00ff00;
+}
+
+* {
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.hover-danger:hover {
+  color: var(--badge-danger) !important;
+}
+
+.hover-danger-btn:hover {
+  background-color: var(--badge-danger) !important;
+  color: #ffffff !important;
+  border-color: var(--badge-danger) !important;
+}

@@ -1,0 +1,66 @@
+name: "NVIDIA Jetson"
+description: >
+  Find companies building commercial products using NVIDIA Jetson hardware
+  or doing edge AI work that could benefit from Jetson. Focus on end-user
+  companies with real products, not resellers or academic research.
+  Look for startups and established companies in robotics, autonomous vehicles,
+  industrial automation, smart cities, healthcare, agriculture, drones, and
+  computer vision that deploy AI models on edge devices. Prioritize companies
+  with confirmed Jetson usage (Orin, AGX Xavier, Nano, etc.) or those using
+  related NVIDIA technologies (TensorRT, DeepStream, Isaac ROS, JetPack).
+  Include their funding stage if known.
+
+exclude_domains:
+  - "arxiv.org"
+  - "ieee.org"
+  - "researchgate.net"
+  - "academia.edu"
+  - "sciencedirect.com"
+  - "springer.com"
+  - "mdpi.com"
+  - "ncbi.nlm.nih.gov"
+  - "scholar.google.com"
+  - "dl.acm.org"
+  - "youtube.com"
+  - "reddit.com"
+  - "stackoverflow.com"
+  - "forums.developer.nvidia.com"
+  - "medium.com"
+  - "towardsdatascience.com"
+  - "conf42.com"
+  - "tracxn.com"
+  - "omdena.com"
+  - "wikipedia.org"
+
+blocklist:
+  # Hardware resellers/distributors
+  - "NVIDIA"
+  - "Seeed Studio"
+  - "Waveshare"
+  - "Arrow Electronics"
+  - "Connect Tech"
+  - "Auvidea"
+  - "Aetina"
+  - "Advantech"
+  - "ADLINK"
+  - "Leopard Imaging"
+  - "D3 Engineering"
+  - "RidgeRun"
+  - "AAEON"
+  - "Axiomtek"
+  - "Kontron"
+  - "Portwell"
+  - "DFI"
+  # Engineering consulting / enterprise IT
+  - "Infosys"
+  - "Kanerika"
+  - "NTT DATA"
+  - "MindTitan"
+  - "OLogic"
+  - "Accenture"
+  - "Wipro"
+  - "TCS"
+  - "Cognizant"
+  - "Capgemini"
+  - "Deloitte"
+  - "HCL Technologies"
