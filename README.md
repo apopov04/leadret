@@ -208,6 +208,16 @@ The CLI version also verifies website URLs via HEAD requests and flags unreachab
 | Deduplication | Suffix-normalized company names (case-insensitive) |
 | Retry logic | Tenacity (3x exponential backoff) |
 
+## Coming Soon
+
+**Flexible data model** — Campaigns now define their own custom fields instead of hardcoded ones. Sector is free-text instead of a fixed enum. New custom field editor in the sidebar with drag-and-drop reordering. Deleting a campaign cleans up its leads too.
+
+**Bug fixes** — Fixed 7 bugs across frontend and backend: silent failures, bad URL validation, missing error states, and data integrity issues.
+
+**Cleanup** — Removed the old Streamlit dashboard. Made API URLs and CORS configurable via env vars. Proper DB shutdown. Added accessibility labels.
+
+**Stability** — Thread-safe research jobs, bounded job store, per-lead error handling so one bad result doesn't crash the whole run. Fixed a CSS ordering issue with Tailwind v4.
+
 ## License
 
 MIT
