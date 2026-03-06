@@ -208,7 +208,7 @@ The CLI version also verifies website URLs via HEAD requests and flags unreachab
 | Deduplication | Suffix-normalized company names (case-insensitive) |
 | Retry logic | Tenacity (3x exponential backoff) |
 
-## Coming Soon
+## Upcoming Update
 
 **Flexible data model** — Campaigns now define their own custom fields instead of hardcoded ones. Sector is free-text instead of a fixed enum. New custom field editor in the sidebar with drag-and-drop reordering. Deleting a campaign cleans up its leads too.
 
